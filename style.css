@@ -7,14 +7,27 @@ html {
     font-size: 18px;
 }
 
-.elts{
-    margin-right: 25px;
+.elts, .elts1{
     font-family: sans-serif;
     color: gray;
     display: flex;
-    justify-content: center;
     flex-direction: row;
-    background-color: lightgray;
+    align-content: space-around;
+    background-color: #f2f2f2;
+    justify-content:left;
+}
+
+.elts1 {
+    flex-grow: 1;
+}
+
+.elts li, .elts1 li {
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #f2f2f2;
+    margin-left: 0px;
+    font-size: 19px;
 }
 
 .search {
@@ -33,7 +46,7 @@ html {
     border-right: none;
     border-left: none;
     height: 60px;
-    width: 550px;
+    width: 680px;
 }
 
 #mic {
@@ -75,22 +88,20 @@ html {
 
 
 .foot {
-    /*display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    margin-right: -40px;*/
-
-    margin-top: -50px;
-    padding: 60px;
+    padding: 19.5px;
+    margin-top: 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: #f2f2f2;
 }
 
 .footer {
-    background-color: #ffffffa1;
     position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    height: 112px;
 }
 
 .headbar {
@@ -98,6 +109,10 @@ html {
     align-items:flex-start;
     flex-direction: row-reverse;
     font-size: 18px;
+}
+
+li {
+    list-style-type: none;
 }
 
 li:hover {
@@ -148,10 +163,17 @@ li:hover {
 
 .pays {
     color: gray;
+    border: 1px solid lightgray;
+    border-right: none;
+    border-left: none;
+    background-color: #f2f2f2;
+    padding: 15px;
+    padding-left: 36px;
 }
 
 .langs1, .langs2 {
     color: #1a0dab;
+    cursor: pointer;
 }
 
 .langs1:hover, .langs2:hover {
