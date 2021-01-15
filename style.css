@@ -1,5 +1,5 @@
 * {
-    background-color: white;
+    background-color: #fff;
 }
 
 html {
@@ -9,18 +9,58 @@ html {
 
 .elts{
     margin-right: 25px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: sans-serif;
+    color: gray;
     display: flex;
     justify-content: center;
     flex-direction: row;
+    background-color: lightgray;
 }
 
 .search {
-   padding: 20px;
+   padding: 30px;
+   display: flex;
+   align-content: center;
 }
 
-input [type=text] {
-    border: 20px;
+.mic {
+    border: 2px solid black;
+}
+
+.bar {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-right: none;
+    border-left: none;
+    height: 60px;
+    width: 550px;
+}
+
+#mic {
+    border: 1px solid lightgray;
+    border-left: none;
+}
+
+#search-icn {
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-right: none;
+    position: right;
+    float: right;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color: rgba(51, 35, 35, 0.356);
+}
+
+#mic {
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-left: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: right;
+    float: left;
+    size: 25px;
 }
 
 .milieu {
@@ -29,7 +69,7 @@ input [type=text] {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding: 150px;
+    padding: 184px;
     align-content: space-around;
 }
 
@@ -42,11 +82,15 @@ input [type=text] {
     margin-right: -40px;*/
 
     margin-top: -50px;
-    background-color: #ffffffa1;
     padding: 60px;
     display: flex;
     justify-content: space-around;
-    
+}
+
+.footer {
+    background-color: #ffffffa1;
+    position: fixed;
+    bottom: 0;
 }
 
 .headbar {
@@ -69,10 +113,10 @@ li:hover {
 
 .btn {
     font-size: 16px;
-    padding: 0 16px;
+    padding: 0 18px;
     margin: 11px 4px;
     line-height: 27px;
-    height: 42px;
+    height: 48px;
     font-size: 18px;
 }
 
@@ -86,13 +130,30 @@ button {
     margin: 2%;
     border-radius: 4px;
     text-align: center;
+    width: 200px;
 }
 
 .btn:hover {
     border: 0.5px solid #d4d7da;
 }
 
-.btn:active {
-    border: 1px solid #388ee4;
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
 
+.random {
+    padding: 32px;
+}
+
+.pays {
+    color: gray;
+}
+
+.langs1, .langs2 {
+    color: #1a0dab;
+}
+
+.langs1:hover, .langs2:hover {
+    text-decoration: underline;
 }
