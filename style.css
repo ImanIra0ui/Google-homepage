@@ -23,57 +23,57 @@ html {
 
 .elts li, .elts1 li {
     padding-bottom: 0px;
-    padding-left: 15px;
+    padding-left: 13px;
     padding-right: 15px;
     background-color: #f2f2f2;
     margin-left: 0px;
-    font-size: 19px;
+    font-size: 14px;
 }
 
 .search {
-   padding: 30px;
+   padding: 15px;
    display: flex;
    align-content: center;
 }
 
-.mic {
-    border: 2px solid black;
-}
 
 .bar {
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
+    border-top: 1px solid rgb(226, 226, 226);
+    border-bottom: 1px solid rgb(226, 226, 226);
     border-right: none;
     border-left: none;
-    height: 60px;
-    width: 680px;
+    height: 41px;
+    width: 500px;
 }
 
 #mic {
-    border: 1px solid lightgray;
+    border: 1px solid rgb(226, 226, 226);
     border-left: none;
 }
 
 #search-icn {
-    padding: 20px;
-    border: 1px solid lightgray;
+    padding: 10px;
+    padding-top:12px;
+    border: 1px solid rgb(226, 226, 226);
     border-right: none;
     position: right;
     float: right;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     color: rgba(51, 35, 35, 0.356);
+    padding-left: 15px;
+    font-size: 15px;
 }
 
 #mic {
-    padding: 20px;
-    border: 1px solid lightgray;
+    padding: 12px;
+    border: 1px solid rgb(226, 226, 226);
     border-left: none;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     position: right;
     float: left;
-    size: 25px;
+    padding-right: 19px;
 }
 
 .milieu {
@@ -82,17 +82,18 @@ html {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding: 184px;
+    padding: 115px;
     align-content: space-around;
 }
 
 
 .foot {
-    padding: 19.5px;
+    padding: 11px;
     margin-top: 0px;
     display: flex;
     justify-content: space-between;
     background-color: #f2f2f2;
+    padding-left: 18px;
 }
 
 .footer {
@@ -101,7 +102,7 @@ html {
     left: 0;
     right: 0;
     background-color: #f2f2f2;
-    height: 112px;
+    height: 80px;
 }
 
 .headbar {
@@ -126,13 +127,20 @@ li:hover {
     justify-content: center;
 }
 
+.google-img {
+    margin: 11px 0px;
+}
+
 .btn {
     font-size: 16px;
-    padding: 0 18px;
-    margin: 11px 4px;
-    line-height: 27px;
-    height: 48px;
-    font-size: 18px;
+    padding: 5px;
+    margin: 10px 9px;
+    margin-bottom: 2px;
+    line-height: 20px;
+    height: 35px;
+    font-size: 14px;
+    width: 140px;
+    color:#3c4043;
 }
 
 button {
@@ -159,6 +167,8 @@ li:hover {
 
 .random {
     padding: 32px;
+    font-size: 13px;
+    margin: 1px 5px;
 }
 
 .pays {
@@ -167,13 +177,15 @@ li:hover {
     border-right: none;
     border-left: none;
     background-color: #f2f2f2;
-    padding: 15px;
-    padding-left: 36px;
+    padding: 11px;
+    padding-left: 30px;
+    font-size: 15px;
 }
 
 .langs1, .langs2 {
     color: #1a0dab;
     cursor: pointer;
+    margin: 1px 4px;
 }
 
 .langs1:hover, .langs2:hover {
