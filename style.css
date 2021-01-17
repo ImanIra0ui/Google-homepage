@@ -52,12 +52,7 @@ html {
     border-right: none;
     border-left: none;
     height: 41px;
-    width: 400px;
-}
-
-#mic {
-    border: 1px solid rgb(226, 226, 226);
-    border-left: none;
+    width: 499px;
 }
 
 #search-icn {
@@ -82,8 +77,8 @@ html {
     border-bottom-right-radius: 30px;
     position: right;
     float: left;
-    padding-bottom: 9px;
-    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-right: 15px;
 }
 
 .list {
