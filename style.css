@@ -31,11 +31,20 @@ html {
 }
 
 .search {
-   padding: 15px;
    display: flex;
    align-content: center;
 }
 
+.milieu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.search:hover{
+    border-radius: 50px;
+    box-shadow: 0 1px 6px 0 #c2c2c2;
+    border-color: rgba(33, 78, 167, 0);
+}
 
 .bar {
     border-top: 1px solid rgb(226, 226, 226);
@@ -155,16 +164,18 @@ li:hover {
     flex-direction: row;
     align-content: center;
     justify-content: center;
+    margin-top: 5px;
 }
 
 .google-img {
     margin: 11px 0px;
 }
 
+
 .btn {
     font-size: 16px;
     padding: 5px;
-    margin: 10px 9px;
+   margin: 30px 9px;
     margin-bottom: 2px;
     line-height: 20px;
     height: 35px;
@@ -220,4 +231,19 @@ li:hover {
 
 .langs1:hover, .langs2:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    .foot {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer {
+        height: 120px;
+    }
+
+    .elts1 {
+        padding: 20px;
+    }
 }
