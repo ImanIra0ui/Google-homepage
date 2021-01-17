@@ -241,4 +241,8 @@ li:hover {
     .elts1 {
         padding: 20px;
     }
+
+    .bar {
+        width: 400px;
+    }
 }
