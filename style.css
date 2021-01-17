@@ -43,7 +43,7 @@ html {
     border-right: none;
     border-left: none;
     height: 41px;
-    width: 500px;
+    width: 400px;
 }
 
 #mic {
@@ -66,14 +66,44 @@ html {
 }
 
 #mic {
-    padding: 12px;
+    padding: 5px;
     border: 1px solid rgb(226, 226, 226);
     border-left: none;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     position: right;
     float: left;
-    padding-right: 19px;
+    padding-bottom: 9px;
+    padding-right: 12px;
+}
+
+.list {
+    padding-right: 16px;
+    padding-top: 16px;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+}
+
+.headbar {
+    display: flex;
+    justify-content:right;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+
+.profile {
+    height: 33px;
+    width: 33px;
+    border-radius: 40px;
+    margin: 5px;
+    margin-top: 9px;
+}
+
+.grid {
+    margin: 5px;
+    padding-top: 8px;
+    padding-right: 10px;
 }
 
 .milieu {
@@ -82,7 +112,7 @@ html {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding: 115px;
+    padding: 100px;
     align-content: space-around;
 }
 
